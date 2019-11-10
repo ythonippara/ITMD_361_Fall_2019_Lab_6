@@ -3,6 +3,7 @@
   overflow: hidden;
   float: left; 
   width: 100%; 
+  z-index: 20;
 } 
 
 nav{
@@ -43,6 +44,7 @@ div#sidebar {
   background-color: red;
   height: 100%;
   width: 20%;
+  z-index: 10;
 }
 
 div#sidebar-container ul {
