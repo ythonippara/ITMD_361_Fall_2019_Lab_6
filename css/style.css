@@ -7,7 +7,7 @@
 } 
 
 nav{
-  position: relative;
+  position: fixed;
   list-style-type: none; 
   margin: 0;
   padding: 0; 
@@ -39,7 +39,7 @@ div#navbar-container ul li a:hover {
 }
   
 div#sidebar {
-  position: relative;
+  position: fixed;
   right: 0%;
   background-color: red;
   height: 100%;
