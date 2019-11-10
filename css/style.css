@@ -1,11 +1,11 @@
-nav#main-navbar {
+header {
   background-color: blue;
   overflow: hidden;
   float: left; 
   width: 100%; 
 } 
 
-div#navbar-container {
+nav#main-navbar {
   position: relative;
   list-style-type: none; 
   margin: 0;
