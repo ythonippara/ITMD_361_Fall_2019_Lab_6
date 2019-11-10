@@ -1,27 +1,24 @@
 #main-navbar {
   background-color: blue;
-}
-
-#navbar-container {
   overflow: hidden;
   float: left; 
   width: 100%; 
 }
 
-ul li {
+#navbar-container {
   position: relative;
   list-style-type: none; 
   margin: 0;
   padding: 0; 
 }
 
-li {
+ul {
   position: relative;
   left: 50%;
   float: left;
 }
 
-ul li a {
+ul li {
   float: left;
   position: relative;
   right: 50%;
@@ -33,10 +30,10 @@ ul li a {
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
-  background-color: #000;
 }
 
 ul li a:hover {
+  background-color: #000;
   text-decoration: underline overline;
 }
   
