@@ -39,7 +39,7 @@ div#navbar-container ul li a:hover {
 }
   
 div#sidebar {
-  position: fixed;
+  position: relative;
   right: 0%;
   background-color: red;
   height: 100%;
