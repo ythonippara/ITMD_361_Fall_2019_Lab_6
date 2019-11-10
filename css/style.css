@@ -1,18 +1,18 @@
-nav#main-navbar {
+#main-navbar {
   background-color: blue;
   overflow: hidden;
   float: left; 
   width: 100%;
 } 
 
-div#navbar-container {
+#navbar-container {
   position: relative;
+}
+
+#navbar-container ul {
   list-style-type: none; 
   margin: 0;
   padding: 0; 
-}
-
-div#navbar-container ul {
   position: relative;
   left: 50%;
   float: left;
