@@ -22,7 +22,7 @@ div#navbar-container ul li {
   float: left;
   position: relative;
   right: 50%;
-  display: block;
+  /*display: block;*/
 }
 
 div#navbar-container ul li a {
