@@ -1,15 +1,15 @@
 #main-navbar {
   background-color: blue;
   overflow: hidden;
-  float: left; 
-  width: 100%;
 }
 
 #navbar-container {
+  float: left; 
+  width: 100%;
   position: relative;
 }
 
-#navbar-container ul {
+#main-navbar ul {
   list-style-type: none; 
   margin: 0;
   padding: 0; 
@@ -18,22 +18,25 @@
   float: left;
 }
 
-#navbar-container ul li {
+#main-navbar ul li {
   float: left;
   position: relative;
   right: 50%;
   /*display: block;*/
 }
 
-#navbar-container ul li a {
+#main-navbar ul li a {
   display: block;
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
 }
 
-#navbar-container ul li a:hover {
+#main-navbar ul li a:hover {
   background-color: #000;
+}
+
+#main-navbar #onpage {
   text-decoration: underline overline;
 }
   
