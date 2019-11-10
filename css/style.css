@@ -22,7 +22,7 @@
   float: left;
   position: relative;
   right: 50%;
-  /*display: block;*/
+  display: block;
 }
 
 #main-navbar ul li a {
